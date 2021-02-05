@@ -53,7 +53,7 @@ public class App
     		lista.addFirst(sc.nextDouble());    		 
     	}
     	Calculator cal = new Calculator(lista);
-    	String pageContent = "<!DOCTYPE html>"
+    	String pageContentOut = "<!DOCTYPE html>"
                 + "<html>"
                 + "<body>"
                 + "<h2>Mean and Standard Deviation Calculator</h2>"
@@ -66,7 +66,7 @@ public class App
                 + "</body>"
                 + "</html>";
     			
-    	return pageContent;
+    	return pageContentOut;
     }
     
     public static  int getPort(){
