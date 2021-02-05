@@ -21,7 +21,7 @@ public class App
 
         System.out.println( "Hello LinkedList!" );
         port(getPort());
-        get("/inputdata", (req, res) -> inputDataPage(req, res));
+        get("/", (req, res) -> inputDataPage(req, res));
         get("/results", (req, res) -> resultsPage(req, res));
     }
     private static String inputDataPage(Request req, Response res) {
