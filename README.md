@@ -110,7 +110,7 @@ mvn test
 
 ## Despliegue en Heroku 
 
-* [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://dry-retreat-86008.herokuapp.com/)
+* [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dry-retreat-86008.herokuapp.com/)
 
 ## Autor
 
